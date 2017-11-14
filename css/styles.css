@@ -1,5 +1,6 @@
 .map {
   position: relative;
+  top: 250px;
 }
 
 .map-image {
@@ -13,11 +14,6 @@
   height: auto;
   /*display: block;*/
 }
-
-p:after {
-  content: "SUCCESS";
-}
-
 .lion {
   position: absolute;
   top: 330px;
@@ -256,4 +252,30 @@ p:after {
    border-left: 30px solid white;
    border-right: 30px solid white;
    margin: 70px 0 0 0;
+}
+.masthead {
+  display: inline;
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  background-color: lightblue;
+  border-bottom: 2px solid red;
+}
+#animHeader {
+  width: 200px;
+  position: absolute;
+  right: 30px
+}
+
+.header-text {
+  position: absolute;
+  top: 100px;
+  transform: translate(0, -50%);
+}
+
+.mHeader {
+  display: inline;
+}
+.mText {
+  display: inline;
 }
