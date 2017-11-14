@@ -1,0 +1,259 @@
+.map {
+  position: relative;
+}
+
+.map-image {
+  width: 1800px;
+  position: absolute;
+  z-index: -1;
+}
+
+.imgsize {
+  width: 110px;
+  height: auto;
+  /*display: block;*/
+}
+
+p:after {
+  content: "SUCCESS";
+}
+
+.lion {
+  position: absolute;
+  top: 330px;
+  left: 920px;
+}
+.lion:before {
+  content: "African Lion";
+  position: absolute;
+  top: 100px;
+  background: lightgrey;
+}
+.lion:after {
+  content: "Panthera Leo";
+  position: absolute;
+  font-style: italic;
+  background: lightgrey;
+}
+
+.bongo {
+  position: absolute;
+  top: 250px;
+  left: 800px;
+}
+.bongo:before {
+  content: "Bongo";
+  position: absolute;
+  top: 100px;
+  display: block;
+  background: lightgrey;
+}
+.bongo:after {
+  content: "Tragelaphus Eurycerus";
+  position: absolute;
+  top: 120px;
+  font-style: italic;
+  background: lightgrey;
+}
+.wildass {
+  position: absolute;
+  top: 460px;
+  left: 930px;
+}
+.wildass:before {
+  content: "Wild Ass";
+  position: absolute;
+  top: 100px;
+  display: block;
+  background: lightgrey;
+}
+.wildass:after {
+  content: "Equus Hemionus Khur";
+  position: absolute;
+  top: 120px;
+  font-style: italic;
+  background: lightgrey;
+}
+.bechsteinbat {
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+}
+.bechsteinbat:before {
+  content: "Bechstein Bat";
+  position: absolute;
+  top: 70px;
+  display: block;
+  background: lightgrey;
+}
+.bechsteinbat:after {
+  content: "Myotis Bechsteinii";
+  position: absolute;
+  top: 90px;
+  font-style: italic;
+  background: lightgrey;
+}
+.hoodedseal {
+  position: absolute;
+  top: 770px;
+  left: 1200px;
+}
+.hoodedseal:before {
+  content: "Hooded Seal";
+  position: absolute;
+  top: 60px;
+  display: block;
+  background: lightgrey;
+}
+.hoodedseal:after {
+  content: "Cystophora Cristata";
+  position: absolute;
+  top: 80px;
+  font-style: italic;
+  background: lightgrey;
+}
+.asianelephant {
+  position: absolute;
+  top: 110px;
+  left: 1150px;
+}
+.asianelephant:before {
+  content: "Asian Elephant";
+  position: absolute;
+  top: 100px;
+  display: block;
+  background: lightgrey;
+}
+.asianelephant:after {
+  content: "Elephas Maximus";
+  position: absolute;
+  top: 120px;
+  font-style: italic;
+  background: lightgrey;
+}
+.blackwallaroo {
+  position: absolute;
+  top: 550px;
+  left: 1430px;
+}
+.blackwallaroo:before {
+  content: "Black Wallaroo";
+  position: absolute;
+  top: 100px;
+  display: block;
+  background: lightgrey;
+}
+.blackwallaroo:after {
+  content: "Macropus Bernardus";
+  position: absolute;
+  top: 120px;
+  font-style: italic;
+  background: lightgrey;
+}
+.leopardcat {
+  position: absolute;
+  top: 80px;
+  left: 1280px;
+}
+.leopardcat:before {
+  content: "Leopard Cat";
+  position: absolute;
+  top: 80px;
+  display: block;
+  background: lightgrey;
+}
+.leopardcat:after {
+  content: "Prionailurus Bengalensis";
+  position: absolute;
+  top: 100px;
+  font-style: italic;
+  background: lightgrey;
+}
+.bushdog {
+  position: absolute;
+  top: 360px;
+  left: 410px;
+}
+.bushdog:before {
+  content: "Bushdog";
+  position: absolute;
+  top: 80px;
+  display: block;
+  background: lightgrey;
+}
+.bushdog:after {
+  content: "Speothos Venaticus";
+  position: absolute;
+  top: 100px;
+  font-style: italic;
+  background: lightgrey;
+}
+
+.andeancat {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
+.andeancat:before {
+  content: "Andean Cat";
+  position: absolute;
+  top: 80px;
+  display: block;
+  background: lightgrey;
+}
+.andeancat:after {
+  content: "Leopardus Jacobita";
+  position: absolute;
+  top: 100px;
+  font-style: italic;
+  background: lightgrey;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin: 50px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+
+  /*Rounded Corners and Shadows*/  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+
+   /*Ridiculous Gradient Syntax*/  background: #e51d16; /* Old browsers */  background: -moz-linear-gradient(top,  #e51d16 0%, #b21203 100%); /* FF3.6+ */  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e51d16), color-stop(100%,#b21203)); /* Chrome,Safari4+ */  background: -webkit-linear-gradient(top,  #e51d16 0%,#b21203 100%); /* Chrome10+,Safari5.1+ */  background: -o-linear-gradient(top,  #e51d16 0%,#b21203 100%); /* Opera 11.10+ */  background: -ms-linear-gradient(top,  #e51d16 0%,#b21203 100%); /* IE10+ */  background: linear-gradient(top,  #e51d16 0%,#b21203 100%); /* W3C */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e51d16', endColorstr='#b21203',GradientType=0 ); /* IE6-9 */}
+
+}
+
+#octagon {
+   width: 100px;
+   height: 100px;
+   background: blue;
+   display: block;
+
+}
+
+#octagon:before {
+   height: 0;
+   width: 40px;
+   content:"";
+   position: absolute;
+   border-bottom: 30px solid blue;
+   border-left: 30px solid white;
+   border-right: 30px solid white;
+}
+
+#octagon:after {
+   height: 0;
+   width: 40px;
+   content:"";
+   position: absolute;
+   border-top: 30px solid blue;
+   border-left: 30px solid white;
+   border-right: 30px solid white;
+   margin: 70px 0 0 0;
+}
